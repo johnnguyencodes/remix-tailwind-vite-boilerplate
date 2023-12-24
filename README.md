@@ -6,7 +6,12 @@
 
 This repo is a boilerplate for new Remix hobby projects I will build. It includes the following out of the box:
 
-- Tailwind CSS, and the following plugins:
+- React v18.2.0
+- Remix v2.4.1
+  - RemixDevTools v3.6.2
+    - See this [Youtube link](https://www.youtube.com/watch?v=VZH9cmeSwnc) for a walk-through along with a Remix Forge demo
+    - Installed, but not used yet
+- Tailwind CSS v3.4.0, and the following plugins:
   - The theme has been extended with the following:
     - `xs` as an additional breakpoint at 375px minimum
     - `Inter var` as the Font Family
@@ -18,11 +23,12 @@ This repo is a boilerplate for new Remix hobby projects I will build. It include
   - Tailwind Hero Icons
     - An additional "xs" breakpoint at 375px minimum
     - `Inter var` Font Family
-- Vite, with the following plugins:
+- Vite v5.0.10, with the following plugins:
   - Vite TSConfig Paths
   - MDX with Remark Frontmatter
   - SVGR
 - Zod
+  - Installed, but not used yet
 - Prettier
 - ESLint
 

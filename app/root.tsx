@@ -1,4 +1,5 @@
 import "./tailwind.css";
+import "remix-development-tools/index.css";
 import {
   Links,
   LiveReload,

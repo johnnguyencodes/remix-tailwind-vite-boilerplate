@@ -6,6 +6,7 @@ import tsconfigPaths from "vite-tsconfig-paths";
 import remarkFrontmatter from "remark-frontmatter";
 import remarkMdxFrontmatter from "remark-mdx-frontmatter";
 import svgr from "vite-plugin-svgr";
+import { remixDevTools } from "remix-development-tools/vite";
 
 export default defineConfig({
   css: {
@@ -17,6 +18,7 @@ export default defineConfig({
     remix({
       ignoredRouteFiles: ["**/.*"],
     }),
+    remixDevTools(),
     tsconfigPaths(),
     mdx({
       remarkPlugins: [remarkFrontmatter, remarkMdxFrontmatter],
