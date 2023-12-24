@@ -34,8 +34,7 @@ This repo is a boilerplate for new Remix hobby projects I will build. It include
 
 To-do:
 
-- Integrate with Sanity.io as the headless CMS solution
-- Connecting it to a Hydrogen Storefront on the Shopify platform as my personal website.
+- Convert to Hydrogen App for Shopify development
 
 ## Development
 
