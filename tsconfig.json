@@ -1,5 +1,11 @@
 {
-  "include": ["remix.env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": [
+    "env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "prettier.config.js",
+    "app/postcss.config.cjs"
+  ],
   "compilerOptions": {
     "lib": ["DOM", "DOM.Iterable", "ES2022"],
     "isolatedModules": true,
@@ -15,6 +21,7 @@
     "paths": {
       "~/*": ["./app/*"]
     },
+    "module": "ESNext",
 
     // Remix takes care of building everything in `remix build`.
     "noEmit": true

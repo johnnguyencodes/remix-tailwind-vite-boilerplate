@@ -1,4 +1,5 @@
 import type { MetaFunction } from "@remix-run/node";
+import { Link } from "@remix-run/react";
 
 export const meta: MetaFunction = () => {
   return [
@@ -9,9 +10,12 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-    <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}>
-      <h1>Welcome to Remix</h1>
+    <div>
       <ul>
+        <h1 className="mx-auto bg-blue-500 py-1 text-3xl font-bold text-blue-100">
+          Remix
+        </h1>
+        <Link to="blah">Blahhhh</Link>
         <li>
           <a
             target="_blank"
