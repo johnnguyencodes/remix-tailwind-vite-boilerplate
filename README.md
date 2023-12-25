@@ -11,10 +11,11 @@ This repo is a boilerplate for new Remix hobby projects I will build. It include
   - RemixDevTools v3.6.2
     - See this [Youtube link](https://www.youtube.com/watch?v=VZH9cmeSwnc) for a walk-through along with a Remix Forge demo
     - Installed, but not used yet
-- Tailwind CSS v3.4.0, and the following plugins:
+- Tailwind CSS v3.4.0
   - The theme has been extended with the following:
     - `xs` as an additional breakpoint at 375px minimum
     - `Inter var` as the Font Family
+  - Tailwind Prettier Plugin
   - Tailwind Debug Screens
   - Tailwind Typography
   - Tailwind Forms
