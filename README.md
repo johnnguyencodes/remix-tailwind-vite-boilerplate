@@ -21,8 +21,6 @@ This repo is a boilerplate for new Remix hobby projects I will build. It include
   - Tailwind Aspect Ratio
   - Tailwind Container Queries
   - Tailwind Hero Icons
-    - An additional "xs" breakpoint at 375px minimum
-    - `Inter var` Font Family
 - Vite v5.0.10, with the following plugins:
   - Vite TSConfig Paths
   - MDX with Remark Frontmatter
@@ -32,11 +30,15 @@ This repo is a boilerplate for new Remix hobby projects I will build. It include
 - Prettier
 - ESLint
 
-To-do:
-
-- Convert to Hydrogen App for Shopify development
-
 ## Development
+
+First, fork the repo.
+
+Install npm packages
+
+```bash
+npm install
+```
 
 From your terminal:
 
